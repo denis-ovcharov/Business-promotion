@@ -11,35 +11,57 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="styles/index.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="./index.html"
-          ><img
-            src="./images/logo.svg"
-            alt="Logo"
-            width="40"
-            height="36"
-          />Product</a
-        >
-
-        <ul>
-          <li><a href="./index.html">Product</a></li>
-          <li><a href="./pricing.html">Pricing</a></li>
-          <li><a href="./customers.html">Customers</a></li>
-          <li><a href="">Resources</a></li>
-        </ul>
+    <header class="header container">
+      <nav class="navigation">
+        <div class="navigation-logo-container">
+          <a class="navigation-list-logo-link" href="./index.html"
+            ><img
+              src="./images/logo.svg"
+              alt="Logo"
+              width="40"
+              height="36"
+            /><span class="navigation-logo-text">Product</span></a
+          >
+        </div>
+        <div class="navigation-list-container">
+          <ul class="navigation-list">
+            <li class="navigation-list-item">
+              <a class="navigation-list-item-link" href="./index.html"
+                >Product</a
+              >
+            </li>
+            <li class="navigation-list-item">
+              <a class="navigation-list-item-link" href="./pricing.html"
+                >Pricing</a
+              >
+            </li>
+            <li class="navigation-list-item">
+              <a class="navigation-list-item-link" href="./customers.html"
+                >Customers</a
+              >
+            </li>
+            <li class="navigation-list-item">
+              <a class="navigation-list-item-link" href="">Resources</a>
+            </li>
+          </ul>
+        </div>
       </nav>
-
-      <ul>
-        <li><button type="button">Sign In</button></li>
-        <li><button type="button">Sign Up</button></li>
-      </ul>
+      <div class="navigation-btns-container">
+        <ul class="navigation-btns-list">
+          <li class="navigation-btns-list-item">
+            <button class="navigation-btn-singin" type="button">Sign In</button>
+          </li>
+          <li class="navigation-btns-list-item">
+            <button class="navigation-btn-singup" type="button">Sign Up</button>
+          </li>
+        </ul>
+      </div>
     </header>
     <main>
-      <section>
+      <section class="container">
         <h1>Work at the speed of thought</h1>
         <p>
           Tools, tutorials, design and innovation experts, all in one place! The
@@ -52,7 +74,7 @@
         <img src="./images/hero.svg" alt="Hero" width="610" height="555" />
       </section>
 
-      <section>
+      <section class="container">
         <h2>Product was Built Specifically for You</h2>
         <ul>
           <li>
@@ -75,7 +97,7 @@
         <button type="button">SIGN UP NOW</button>
       </section>
 
-      <section>
+      <section class="container">
         <h2>Benefits</h2>
 
         <ul>
@@ -182,7 +204,7 @@
         </ul>
       </section>
 
-      <section>
+      <section class="container">
         <h2>Quick & Easy Process</h2>
         <p>
           Do you require some help for your project: Conception workshop,
@@ -209,7 +231,7 @@
         <button type="button">Contact our expert</button>
       </section>
 
-      <section>
+      <section class="container">
         <h2>Contents Strategies</h2>
         <p>
           We focus on ergonomics and meeting you where you work. It's only a
@@ -221,7 +243,7 @@
           <li><img src="" alt="" /></li>
         </ul>
       </section>
-      <section>
+      <section class="container">
         <h2>Price Table</h2>
         <p>We offer competitive price</p>
 
@@ -272,7 +294,7 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section class="container">
         <h2>What Clients Say</h2>
         <p>
           Problems trying to resolve the conflict between the two major realms
@@ -308,14 +330,14 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section class="container">
         <p>Join 100 Compannies who boost their business with Product</p>
         <button type="button">Get This</button>
         <img src="./images/screen.svg" alt="" />
       </section>
     </main>
 
-    <footer>
+    <footer class="container">
       <a href="./index.html"
         ><img
           src="./images/logo.svg"
