@@ -1,0 +1,114 @@
+body {
+    color: #22343d;
+    font-family: "Poppins", sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+a {
+    text-decoration: none;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+img {
+    margin: 0;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+img {
+    display: block;
+}
+
+button {
+    cursor: pointer;
+    text-align: center;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+/* HEADER */
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 19px 0;
+    margin-bottom: 25px;
+}
+
+.navigation {
+    display: flex;
+}
+
+.navigation-list {
+    display: flex;
+    gap: 30px;
+}
+
+.navigation-btns-list {
+    display: flex;
+    gap: 20px;
+}
+
+.navigation-list-item-link {
+    line-height: 1.75;
+}
+
+
+.navigation-list-logo-link {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 0.93;
+    color: #173a56;
+}
+
+.navigation-btn-singup,
+.navigation-btn-singin {
+    padding: 9px 24px;
+    border-radius: 4px;
+    font-weight: 600;
+
+
+}
+
+.navigation-btn-singin {
+    border: 1px solid #bcd0e5;
+    color: #173a56;
+    background-color: #fff;
+    min-width: 105px;
+}
+
+.navigation-btn-singup {
+    border: transparent;
+    background-color: #02897a;
+    color: #fff;
+    min-width: 113px;
+}
