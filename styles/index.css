@@ -495,13 +495,14 @@ transform: scale(1.2);
     background-color: #02897a;
     color: #fff;
 }
-.price-list-item:hover .price {
-    color: #fff;
-}
-.price-list-item:hover .price-symbol,
-.price-list-item:hover .price-per-month
+.price-list-item:hover .price,
+.price-list-item:hover .price-symbol
 {
     color: #fff;
+}
+.price-list-item:hover .price-per-month
+{
+    color: #e0e0e0;
 }
  .price-list-item:hover .price-btn{
     background-color: #fff;
