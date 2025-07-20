@@ -215,6 +215,119 @@ button {
 
 }
 
+/* How Product Work? */
+
+.how-product-works {
+    margin-bottom: 150px;
+    justify-content: center;
+}
+
+.how-title {
+    font-weight: 700;
+    font-size: 34px;
+    text-align: center;
+    margin-bottom: 73px;
+}
+.how-list {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    margin-bottom: 78px;
+}
+.how-list-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.how-list-item:nth-child(odd) {
+    flex-direction: row-reverse;
+}
+.how-item-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+}
+.how-item-title {
+    font-weight: 600;
+    font-size: 24px;
+}
+.how-item-text {
+    line-height: 1.75;
+}
+.how-item-titles-text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 438px;
+}
+.how-btn {
+    border-radius: 8px;
+    width: 224px;
+    height: 44px;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    background-color: #02897a;
+    padding: 11px 18px;
+    display: block;
+    margin: 0 auto;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.how-btn:hover {
+    background-color: #07534a;
+}
+
+
+/* OFFERS */
+
+.offers {
+    margin-bottom: 150px;
+    padding-bottom: 45px;
+}
+
+.offers-title {
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    max-width: 537px;
+    margin: 0 auto;
+    margin-bottom: 93px;
+}
+.offers-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 227px;
+}
+.offers-list-item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.offers-item-title {
+    margin-bottom: 16px;
+}
+.item {
+    font-size: 18px;
+    line-height: 1.77778;
+    text-align: center;
+}
+.list {
+    margin-bottom: 12px;
+}
+.text {
+    font-weight: 500;
+    
+    line-height: 1.75;
+    color: #000;
+}
+.offers-img {
+    margin-bottom: 27px;
+}
+
 
 /* PROMO */
 
