@@ -139,8 +139,81 @@ button {
     text-align: center;
     margin-bottom: 50px;
 }
+.clients-logo-container {
+    display: flex;
+    gap: 64px;
+    align-items: center;
+    justify-content: center;
+}
+.our-clients.container {
+    margin-bottom: 117px;
+}
 
+/* FEATURES */
+.features-title {
+    font-weight: 700;
+    font-size: 34px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.features-item-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.375;
+    letter-spacing: 0em;
+    margin-bottom: 16px;
+}
+.features-item-text {
+    line-height: 1.6875;
+    letter-spacing: 0.01em;
+    max-width: 275px;
+    text-align: center;
+}
 
+.cursor-container,
+.lines-container,
+.heart-container {
+    border-radius: 19px;
+    width: 54px;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px;
+
+}
+
+.cursor-container {
+    background-color: #02897a;
+}
+
+.lines-container {
+    background-color: #4d8dff;
+}
+
+.heart-container {
+    background-color: #f03e3d;
+}
+.features-list {
+    display: flex;
+    gap: 30px;
+}
+.features-list-item {
+    border: 1px solid #dedede;
+    border-radius: 10px;
+    width: 350px;
+    height: 305px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.features.container {
+    margin-bottom: 100px;
+    padding-top: 24px;
+    padding-bottom: 68px;
+
+}
 
 
 /* PROMO */
