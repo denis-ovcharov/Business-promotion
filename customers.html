@@ -20,6 +20,8 @@
     <link rel="stylesheet" href="styles/customers.css" />
   </head>
   <body>
+    <!-- HEADER -->
+
     <header class="header container">
       <div class="header-container">
         <div class="navigation-logo-container">
@@ -46,7 +48,9 @@
                 >
               </li>
               <li class="navigation-list-item">
-                <a class="navigation-list-item-link" href="./customers.html"
+                <a
+                  class="navigation-list-item-link link"
+                  href="./customers.html"
                   >Customers</a
                 >
               </li>
@@ -74,72 +78,137 @@
     </header>
     <main>
       <h1>Page Customers</h1>
+
+      <!-- PROMO -->
+
+      <section class="promo container">
+        <div class="promo-container">
+          <div class="promo-text-btn-container">
+            <p class="promo-text">
+              Join 100 Compannies who boost their business with Product
+            </p>
+            <button class="promo-btn" type="button">Get This</button>
+          </div>
+          <img
+            width="351"
+            height="331"
+            class="promo-img"
+            src="./images/screen.svg"
+            alt="graphics"
+          />
+        </div>
+      </section>
     </main>
 
-    <footer>
-      <a href="./index.html"
-        ><img
-          src="./images/logo.svg"
-          alt="Logo"
-          width="40"
-          height="36"
-        />Product</a
-      >
+    <!-- FOOTER -->
 
-      <ul>
-        <li>
-          <a
-            href=""
-            target="_blank"
-            rel="noopener noreferrer nofollow"
-            aria-label="Instagram"
-            >I</a
-          >
-        </li>
-        <li>
-          <a
-            href=""
-            target="_blank"
-            rel="noopener noreferrer nofollow"
-            aria-label="Facebook"
-            >F</a
-          >
-        </li>
-        <li>
-          <a
-            href=""
-            target="_blank"
-            rel="noopener noreferrer nofollow"
-            aria-label="Twitter"
-            >T</a
-          >
-        </li>
-      </ul>
+    <footer class="foot container">
+      <div class="foot-container">
+        <div class="foot-logo-social-links-container">
+          <div class="navigation-logo-container">
+            <a class="navigation-list-logo-link" href="./index.html"
+              ><img
+                src="./images/logo.svg"
+                alt="Logo"
+                width="40"
+                height="36"
+              /><span class="navigation-logo-text">Product</span></a
+            >
+          </div>
 
-      <nav>
-        <p>Resource</p>
-        <ul>
-          <li><a href="">About Us</a></li>
-          <li><a href="">Blog</a></li>
-          <li><a href="">Contact</a></li>
-          <li><a href="">FAQ</a></li>
-        </ul>
+          <ul class="foot-social-list">
+            <li class="foot-social-list-item">
+              <a
+                class="foot-social-link"
+                href="https://www.instagram.com/"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                aria-label="Instagram"
+                ><img
+                  width="24"
+                  height="24"
+                  src="./images/instagram.svg"
+                  alt=""
+              /></a>
+            </li>
+            <li class="foot-social-list-item">
+              <a
+                class="foot-social-link"
+                href="https://www.facebook.com/"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                aria-label="Facebook"
+                ><img width="24" height="24" src="./images/facebook.svg" alt=""
+              /></a>
+            </li>
+            <li class="foot-social-list-item">
+              <a
+                class="foot-social-link"
+                href="https://x.com/"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                aria-label="Twitter"
+                ><img width="24" height="24" src="./images/twitter.svg" alt=""
+              /></a>
+            </li>
+          </ul>
+        </div>
+        <nav class="foot-nav">
+          <div class="foot-nav-container">
+            <p class="foot-nav-title">Resource</p>
+            <ul class="foot-nav-list">
+              <li class="foot-nav-list-item">
+                <a class="foot-nav-link" href="">About Us</a>
+              </li>
+              <li class="foot-nav-list-item">
+                <a class="foot-nav-link" href="">Blog</a>
+              </li>
+              <li class="foot-nav-list-item">
+                <a class="foot-nav-link" href="">Contact</a>
+              </li>
+              <li class="foot-nav-list-item">
+                <a class="foot-nav-link" href="">FAQ</a>
+              </li>
+            </ul>
+          </div>
+          <div class="foot-nav-container">
+            <p class="foot-nav-title">Legal Stuff</p>
+            <ul class="foot-nav-list">
+              <li class="foot-nav-list-item">
+                <a class="foot-nav-link" href="">Disclaimer</a>
+              </li>
+              <li class="foot-nav-list-item">
+                <a class="foot-nav-link" href="">Financing</a>
+              </li>
+              <li class="foot-nav-list-item">
+                <a class="foot-nav-link" href="">Privacy Policy</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="foot-input-container">
+          <p class="foot-input-title">
+            knowing you're always on the best energy deal.
+          </p>
 
-        <p>Legal Stuff</p>
-        <ul>
-          <li><a href="">Disclaimer</a></li>
-          <li><a href="">Financing</a></li>
-          <li><a href="">Privacy Policy</a></li>
-        </ul>
-      </nav>
-
-      <p>knowing you're always on the best energy deal.</p>
-
-      <form>
-        Тут буде інпут
-        <button type="submit">Sign up Now</button>
-      </form>
-
+          <form class="foot-form-container">
+            <label for="phone">
+              <div class="foot-input-container">
+                <input
+                  id="phone"
+                  class="foot-input"
+                  type="tel"
+                  placeholder="Enter your phone number"
+                  name="user-tel"
+                  required
+                />
+                <img class="foot-input-img" src="./images/mobile.svg" alt="" />
+              </div>
+            </label>
+            <button class="foot-btn" type="submit">Sign up Now</button>
+          </form>
+        </div>
+      </div>
       <p>Made With Love By Figmaland All Right Reserved</p>
     </footer>
   </body>
