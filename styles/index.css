@@ -659,6 +659,14 @@ transform: scale(1.2);
     justify-content: center;
     align-items: center;
 }
+.foot-social-link {
+    transition: transform 250ms ease-in-out;
+}
+.foot-social-link:hover,
+.foot-social-link:focus
+{
+    transform: scale(1.2);
+}
 .foot-nav {
     display: flex;
     gap: 129px;
