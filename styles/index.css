@@ -5,13 +5,12 @@ body {
 ul {
     list-style-type: none;
     padding: 0;
-    margin: 0;
-    
+    margin: 0;  
 }
 a {
     text-decoration: none;
-
 }
+
 
 h1,h2,h3,h4,p,img {
     margin: 0;
@@ -59,8 +58,12 @@ button {
 }
 .navigation-list-item-link {
     line-height: 1.75;
-}
+    color: #22343d;
 
+}
+.navigation-list-item-link.product-link {
+    font-weight: 600;
+}
 
 .navigation-list-logo-link {
     display: flex;
@@ -71,11 +74,17 @@ button {
     line-height: 0.93;
     color: #173a56;
 }
+.navigation-list-item-link:hover,
+.navigation-list-item-link:focus
+{
+    color: #02897a;
+}
 .navigation-btn-singup,
 .navigation-btn-singin{
     padding: 9px 24px;
     border-radius: 4px;
     font-weight: 600;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .navigation-btn-singin {
     border: 1px solid #bcd0e5;
@@ -132,6 +141,7 @@ background-color: #07534a;
     border-radius: 4px;
     min-width: 178px;
     height: 53px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-btn:hover {
     background-color: #07534a;
@@ -144,6 +154,10 @@ background-color: #07534a;
     display: flex;
     flex-direction: row-reverse;
     gap: 8px;
+    transition: transform 250ms ease-in-out;
+}
+.hero-link:hover {
+    transform: scale(1.2);
 }
 .hero-title {
     font-size: 40px;
@@ -175,12 +189,14 @@ background-color: #07534a;
 }
 .feature-btn {
     min-width: 175px;
+    height: 54px;
     color: #fff;
     font-weight: 700;
     padding: 14px 30px;
     background-color: #02897a;
     border: none;
     border-radius: 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .feature-btn:hover {
     background-color: #07534a;
@@ -338,6 +354,7 @@ background-color: #07534a;
     color: #fff;
     font-weight: 700;
     border-radius: 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .staff-btn:hover {
 background-color: #07534a;
@@ -425,6 +442,7 @@ background-color: #07534a;
     align-items: center;
     text-align: center;
     cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 .price-item-title {
         font-weight: 700;
@@ -508,3 +526,216 @@ transform: scale(1.2);
     background-color: #fff;
     color: #02897a;
  }
+
+ /* FEEDBACK */
+
+ .feedback-title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.78125;
+    letter-spacing: 0.01em;
+    text-align: center;
+ }
+ .feedback-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.75;
+    letter-spacing: 0.01em;
+    text-align: center;
+    max-width: 537px;
+ }
+ .feedback-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+ }
+ .feedback-title-text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 40px;
+ }
+ .feedback-list {
+    display: flex;
+    gap: 64px;
+ }
+ .feedback-list-item {
+    max-width: 327px;
+    max-height: 240px;
+    border: 1px solid #dedede;
+    border-radius: 5px;
+    padding: 28px 26px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+ }
+ .feedback-item-text {
+    line-height: 1.75;
+    letter-spacing: 0.01em;
+    color: #737373;
+ }
+.feedback-client-container {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+/* PROMO */
+
+.promo-container {
+    border-radius: 32px;
+    width: 968px;
+    height: 345px;
+    background-color:#02897a;
+    display: flex;
+    padding-left: 51px;
+    padding-right: 46px;
+    gap: 10px;
+    margin-bottom: 100px;
+}
+.promo.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.promo-text {
+    margin-top: 49px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.514;
+    color: #fff;
+
+}
+.promo-text-btn-container {
+    display: flex;
+    flex-direction: column;
+    gap: 46px;
+}
+.promo-btn {
+    padding: 10px 34px;
+    border-radius: 8px;
+    width: 150px;
+    height: 50px;
+    background-color: #fff;
+    color: #02897a;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    transition: transform 250ms ease-in-out;
+}
+.promo-btn:hover,
+.promo-btn:focus {
+    transform: scale(1.2);
+}
+
+/* FOOTER */
+
+.foot {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    padding-bottom: 40px;
+    justify-content: center;
+    align-items: center;
+
+}
+.foot-logo-social-links-container {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin-right: 146px;
+}
+.foot-social-list {
+    display: flex;
+    gap: 16px;
+}
+.foot-social-list-item {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot-nav {
+    display: flex;
+    gap: 129px;
+    margin-right: 83px;
+}
+.foot-nav-title,
+.foot-input-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #22343d;
+}
+.foot-nav-title {
+    margin-bottom: 8px;
+}
+.foot-nav-link {
+    line-height: 2.1875;
+    color: #22343d;
+}
+.foot-nav-link:hover,
+.foot-nav-link:focus {
+    color: #02897a;
+}
+.foot-input-container {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    max-width: 325px;
+}
+.foot-input-title {
+    max-width: 280px;
+}
+.foot-container {
+    display: flex;
+}
+.foot-form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.foot-btn {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #02897a;
+    width: 131px;
+    height: 39px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.foot-btn:hover,
+.foot-btn:focus {
+    background-color: #07534a;
+}
+.foot-input {
+    outline: transparent;
+    border: 1px solid #bcd0e5;
+    color: #22343d;
+    border-radius: 4px;
+    width: 100%;
+    height: 48px;
+    padding-left: 36px;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.foot-input:focus {
+    border-color: #02897a;
+}
+
+.foot-input::placeholder {
+    line-height: 1.75;
+    color: #02897a;
+    padding-left: 4px;
+}
+.foot-input-container {
+    position: relative;
+}
+.foot-input-img {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+}
