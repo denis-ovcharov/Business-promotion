@@ -130,6 +130,19 @@ button {
 .navigation-btn-singin:hover {
     background-color: #d3dbd9;
 }
+
+
+/* OUR CLIENTS */
+.page-customers-title {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+
+
 /* PROMO */
 
 .promo-container {
