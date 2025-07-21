@@ -284,7 +284,6 @@ button {
     text-align: center;
     margin-bottom: 294px;
     padding-top: 53px;
-    padding-bottom: 51px;
 }
 .enter-title {
     font-weight: 600;
@@ -318,6 +317,52 @@ button {
     background-color: #07534a;
 }
 
+/* PRODUCT */
+
+.product-title {
+    font-weight: 700;
+    font-size: 34px;
+    margin-bottom: 56px;
+    text-align: center;
+}
+.product-item-title {
+    font-weight: 600;
+    font-size: 24px;
+}
+.product-item-text {
+    line-height: 1.75;
+}
+.product-img-list-container {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+.product-item-img-title-container {
+    display: flex;
+    gap: 27px;
+    margin-bottom: 23px;
+}
+.product-list {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+/* QUESTIONS */
+
+.quest-title {
+    font-weight: 700;
+    font-size: 34px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+.quest-text {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 50px;
+}
 
 /* PROMO */
 
