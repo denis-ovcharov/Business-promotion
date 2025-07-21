@@ -365,14 +365,8 @@ button {
 }
 
 .quest {
-    padding: 60px 20px;
     max-width:920px;
-    margin: 0 auto;
-}
-.quest-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+    margin-bottom: 150px;
 }
 
 .quest-item {
@@ -409,7 +403,6 @@ button {
     background-color: #02897a;
     color: #fff;
     font-size: 20px;
-    flex-shrink: 0;
     transition: background-color 0.3s ease;
     position: relative;
 }
