@@ -277,6 +277,48 @@ button {
     background-color: #fff;
     color: #02897a;
 }
+
+/* ENTERPRISE */
+
+.enterprise {
+    text-align: center;
+    margin-bottom: 294px;
+    padding-top: 53px;
+    padding-bottom: 51px;
+}
+.enter-title {
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.enter-subtitle {
+    font-weight: 700;
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+.enter-text {
+    font-size: 18px;
+    margin-bottom: 32px;
+}
+.enter-btn {
+    border-radius: 8px;
+    width: 224px;
+    height: 44px;
+    border: none;
+    background-color: #02897a;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.enter-btn:hover {
+    background-color: #07534a;
+}
+
+
 /* PROMO */
 
 .promo-container {
