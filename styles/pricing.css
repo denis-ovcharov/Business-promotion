@@ -364,6 +364,78 @@ button {
     margin-bottom: 50px;
 }
 
+.quest {
+    padding: 60px 20px;
+    max-width:920px;
+    margin: 0 auto;
+}
+.quest-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.quest-item {
+    border-bottom: 1px solid #ddd;
+}
+.quest-item input {
+    display: none;
+}
+
+.quest-item label {
+    display: flex;
+    gap: 16px;
+    flex-direction: row-reverse;
+    justify-content: left;
+    align-items: center;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.quest-item label:hover {
+    background-color: #f9f9f9;
+}
+
+.icon-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #02897a;
+    color: #fff;
+    font-size: 20px;
+    flex-shrink: 0;
+    transition: background-color 0.3s ease;
+    position: relative;
+}
+
+.icon-circle::before {
+    content: '+';
+    line-height: 1;
+}
+
+.quest-item input:checked+label .icon-circle::before {
+    content: '−';
+}
+
+.quest-answer {
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 20px;   
+    color: #444;
+    transition: max-height 0.4s ease, padding 0.3s ease;
+}
+
+.quest-item input:checked~.quest-answer {
+    max-height: 300px;
+    padding: 15px 20px 25px;
+}
+
 /* PROMO */
 
 .promo-container {
